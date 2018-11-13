@@ -92,8 +92,8 @@
 #     print(count)
 
 
-coinAmount = 0
-print("You have 0 coins.")
+coinAmount = int(input("How many coins do you have?"))
+print("You have %d coins" %(coinAmount))
 
 anotherCoin = str.lower(input("Do you want another?" ))
 
