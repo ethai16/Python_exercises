@@ -91,14 +91,14 @@ from numpy import arange
 play = str.upper(input("Do you want to play again(Y/N)"))
 
 def quest(play):
-    while play == "Y":
-        value = True
-        play = str.upper(input("Do you want to play again(Y/N)"))
-    if play == "N":
-        return False
-    else:
+    while play != "Y" and play != "N":
         print("Invalid Response!")
         play = str.upper(input("Do you want to play again(Y/N)"))
+
+    if play == "Y":
+        return True
+    elif play == "N":
+        return False
 
         
 print(quest(play))
