@@ -92,22 +92,20 @@
 #     print(count)
 
 
-coinAmount = int(input("How many coins do you have?"))
-print("You have %d coins" %(coinAmount))
+# coinAmount = int(input("How many coins do you have?"))
+# print("You have %d coins" %(coinAmount))
 
-anotherCoin = str.lower(input("Do you want another?" ))
+# anotherCoin = str.lower(input("Do you want another? (yes/no)" ))
 
-while anotherCoin == "yes":
-    coinAmount += 1
-    print("You have %d coins" %(coinAmount))
-    anotherCoin = str.lower(input("Do you want another?" ))
+# while anotherCoin == "yes":
+#     coinAmount += 1
+#     print("You have %d coins" %(coinAmount))
+#     anotherCoin = str.lower(input("Do you want another?" ))
 
-if anotherCoin == "no":
-    print("Bye")
-else:
-    print("invalid")
-
-
+# if anotherCoin == "no":
+#     print("Bye")
+# else:
+#     print("Invalid response, I take everything!")
 
 
 
