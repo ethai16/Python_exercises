@@ -58,14 +58,18 @@
 
 # print(numberList3)
 
-twoDim1 = [[2, -2], [5,3]]
-twoDim2 = [[3, -3], [-6,3]]
-result = [[0,0], [0,0]]
+twoDim1 = [[2, -2,4], [5,3,7], [5,4,3]]
+twoDim2 = [[3, -3,6], [-6,3,5], [5,9,4]]
+result = [[0,0,0], [0,0,0], [0,0,0]]
 
 for i in range(len(twoDim1)):
     for j in range(len(twoDim1[0])):
         result[i][j] = twoDim1[i][j] + twoDim2[i][j]
 for r in result:
     print(r)
+
+random = [1,2,3,2,1,2,3,4,5,4,3,2,1,2,3,4,5,6,6]
+sortRandom = set(random)
+print(sortRandom)
 
 
